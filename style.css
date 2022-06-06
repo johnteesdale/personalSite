@@ -13,7 +13,14 @@ body {
 
 a {
   color: black;
+  transition: .3s;
+  display: block;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+
 }
 
 p {
@@ -194,4 +201,36 @@ section:nth-child(even) h5 {
   width: 90%;
   margin: 15px;
   box-shadow: 5px 5px 12px #e3e3e3;
+}
+
+#projectPage {
+  padding-bottom: 50px;
+}
+
+#projectPage h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+#projectPage img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+#projectPage p {
+  margin: 15px auto 30px;
+  max-width: 80%;
+}
+
+#projectPage h6 {
+  margin: 10px 0px 30px;
+  text-align: center;
+}
+
+#projectPage #projectDetails a {
+  text-align: center;
+  margin: 20px auto 10px;
+  display: block;
 }
