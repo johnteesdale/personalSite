@@ -1,24 +1,81 @@
 <html>
   <head>
     <title>John Teesdale | Designer</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/svz8piy.css">
-
   </head>
   <body id="homePage">
-    <nav>
-      <h3><a href="index.html"><span>John</span>Teesdale</a></h3>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Work</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      <h2><span class="graphic">Graphic</span>Designer</h2>
-      <h2><span class="uiUx">UI/UX</span>Designer</h2>
-      <h2><span class="infographic">Infographic</span>Designer</h2>
-      <h2><span class="web">Web</span>Designer</h2>
-      <p><a href="work.html">view work →</a><p>
-    </div>
+    <header>
+    	<a href="../index.html" class="hover-target">john<span>teesdale</span></a>
+    </header>
+
+      <div class="projectTypes">
+        <h4 id="allProjects" class="projectSelector">AllProjects</h4>
+        <h4 id="graphicDesign" class="projectSelector">Graphic Design</h4>
+        <h4 id="webDev" class="projectSelector">Web Development</h4>
+      </div>
+
+      <div class="projectGrid">
+        <a class="projectBox span1 graphicDesign" id="SeeAndSelect" href="projects/see-n-select.html">
+          <div>
+            <h2>See & Select</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span1 webDev dark" id="VoiceComm" href="projects/voicecomm.html">
+          <div>
+            <h2>VoiceComm</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span3 graphicDesign webDev" id="TechPerks" href="projects/techPerks.html">
+          <div>
+            <h2>Tech Perks</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span3 webDev dark" id="EconMadeEasy" href="projects/econ.html">
+          <div>
+            <h2>Economics Made Easy</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span1 webDev" id="Brandywine" href="projects/brandywine.html">
+          <div>
+            <h2>Brandywine Workshop and Archives</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span1 graphicDesign dark" id="SpiralQ" href="projects/spiralQ.html">
+          <div>
+            <h2>Sprial Q Rebrand</h2>
+            <h4 href="#">View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span2 graphicDesign dark" id="Ventev" href="projects/ventev.html">
+          <div>
+            <h2>Ventev</h2>
+            <h4>View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span1 graphicDesign" id="HitchhikerMag" href="projects/hitchHiker.html">
+          <div>
+            <h2>Hitchhiker's Alamanac</h2>
+            <h4 href="#">View Project</h4>
+          </div>
+        </a>
+        <a class="projectBox span2 webDev" id="Bonnevaux" href="projects/bonnevaux.html">
+          <div>
+            <h2>Bonnevaux Retreat Center</h2>
+            <h4 href="#">View Project</h4>
+          </div>
+        </a>
+      </div>
+
+    <!--Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/script.js"></script>
+
   </body>
 </html>
