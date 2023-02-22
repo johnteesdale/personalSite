@@ -433,15 +433,5 @@
   .white-bg {
 	background-color: white;
   }
-  
-  /*.projectSection h2::after {
-	content: "";
-	display: block;
-	position: relative;
-	width: 100%;
-	background-color: var(--accent-color);
-	height: 30px;
-	top: -25px;
-	z-index: -20;
-  }*/
+
   
