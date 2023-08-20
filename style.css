@@ -70,7 +70,7 @@
   }
   
   header a {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	font-weight: 900;
 	text-align: center;
 	display: block;
@@ -142,6 +142,7 @@
 	-moz-box-shadow: 1px 1px 16px -1px rgba(0,0,0,0.26);    
 	border-radius: 15px;
 	cursor: pointer;
+	background-repeat: no-repeat;
   }
   
   .projectGrid .projectBox div {
@@ -235,7 +236,7 @@
 	}
   }
   
-  @media (max-width:750px) {
+  @media (max-width:1000px) {
 	.projectGrid {
 	  grid-template-columns: repeat(2, 1fr);
 	}
@@ -261,10 +262,14 @@
   }
   #TechPerks {
 	  background-image: url(v3/techPerks-bg.jpg);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-color: #33bd92;
+	  background-position: center;
   }
   #EconMadeEasy {
 	  background-image: url(v3/econMadeEasy-bg.jpg);
-	  background-position: center;
+	  background-position: left;
   }
   #Brandywine {
 	  background-image: url(v3/brandywine-bg.jpeg);
@@ -275,7 +280,8 @@
   }
   #Ventev {
 	  background-image: url(v3/ventev-bg.jpg);
-	  background-size: contain;
+	  background-size: cover;
+	  background-position: right;
   }
   #HitchhikerMag {
 	  background-image: url(v3/hitchHikers-bg.jpg);
@@ -287,6 +293,7 @@
   #VoiceComm {
 	background-image: url(v3/voiceComm-bg.jpg);
 	background-position-x: -40px;
+	background-color:#e8e8e8;
   }
   
   /*Project Page Styles*/
@@ -433,5 +440,37 @@
   .white-bg {
 	background-color: white;
   }
-
   
+  @media (max-width:1000px) {
+	.projectintro, .sectionIntro {
+		display: block;
+	}
+	.two-column, .four-column {
+		display: block;
+	}
+	#EconMadeEasy {
+		background-position: right;
+	}
+  }
+
+  @media (max-width: 1000px) {
+	.span1 {
+		grid-column-start: span 1;
+	  }
+	  
+	  .span2 {
+		grid-column-start: span 1;
+	  }
+	  
+	  .span3 {
+		grid-column-start: span 2;
+	  }
+	  
+	  .span4 {
+		grid-column-start: span 4;
+	  }
+	  
+	  .span5 {
+		grid-column-start: span 5;
+	  }
+  }

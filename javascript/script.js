@@ -12,16 +12,16 @@
 		console.log(id);
 		console.log(h);
 		console.log(a);
-		$(".projectBox").css("opacity", ".2");
-		$("h2").css("opacity", ".6");
-		$(".projectBox a").css("opacity", ".2");
-		$(id).css("opacity", "1");
-		$(h).css("opacity", "1");
-		$(a).css("opacity", "1");
+		$(".projectBox").css("display", "none");
+		$("h2").css("display", "none");
+		$(".projectBox a").css("display", "none");
+		$(id).css("display", "flex");
+		$(h).css("display", "flex");
+		$(a).css("display", "flex");
 		if (id == ".allProjects") {
-			$(".projectBox").css("opacity", "1");
-			$("h2").css("opacity", "1");
-			$(".projectBox a").css("opacity", "1");
+			$(".projectBox").css("display", "flex");
+			$("h2").css("display", "flex");
+			$(".projectBox a").css("display", "flex");
 		}
 	});
 
