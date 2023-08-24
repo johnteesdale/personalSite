@@ -295,6 +295,11 @@
 	background-position-x: -40px;
 	background-color:#e8e8e8;
   }
+
+  #vcRedesign {
+	background-image: url(v3/vcRedesign-bg.jpg);
+	background-position: left;
+  }
   
   /*Project Page Styles*/
   
@@ -349,6 +354,10 @@
 
   .projectHeader#TechPerks {
 	background-image: url(v3/techPerks-project-bg.jpg);
+  }
+
+  .projectHeader#vcRedesign {
+	background-image: url(v3/vcRedesign-project-bg.jpg);
   }
   
   .projectHeader div{
