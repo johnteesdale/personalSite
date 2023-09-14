@@ -483,3 +483,21 @@
 		grid-column-start: span 5;
 	  }
   }
+
+  .intro {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 50px auto 100px;
+  }
+
+  .intro p {
+	font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .intro .button {
+	color: var(--bg-color);
+  }
